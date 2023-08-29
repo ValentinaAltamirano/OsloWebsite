@@ -128,7 +128,7 @@ h2 {
 }
 
 .contenido-info .info h2{
-    width: 40rem;
+    max-width: 40rem;
 }
 
 .contenido-info .info p{
