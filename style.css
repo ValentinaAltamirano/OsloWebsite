@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+}
+
+.contenido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenido-header .navegacion-principal ul {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+a:hover {
+    background-color: #ebebeb;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #000;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.active{
+    border-bottom: 1px solid #000;
+}
+
+.contenido-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem;
+}
+
+.contenido-main h2 {
+    max-width: 30rem;
+    text-align: center; 
+}
+
+.imagen {
+    width: 90%; 
+}
+
+.contenido-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.contenido-section p{
+    margin-bottom: 2rem;
+}
+
+.contenido-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e6e6e6;
+    padding: 2rem;
+}
+
+.navegacion-secundaria ul li {
+    margin: 1rem;
+}
+
+
+.contenido-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 2rem;
+}
+
+.contenido-info .info{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: top;
+}
+
+.contenido-info .info h2{
+    width: 40rem;
+}
+
+.contenido-info .info p{
+    width: 65rem;
+    font-size: 1.2rem;
+}
+
+.contenido-info .imagen {
+    width: 50rem;
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+.contenido-servicio{
+    display: flex;
+    justify-content:space-between;
+    align-items: top;
+    margin: 4rem;
+}
+
+.contenido-servicio .info{
+    width: 30rem;
+}
+
+.contenido-servicio .servicios{
+    width: 40rem;
+    padding: 1rem;
+}
+   
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 30%;
+    padding: 2rem;
+}
+
+.contenido-contacto{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.contenido-contacto .contacto{
+    width: 30rem;
+}
+
+.contenido-contacto .formulario form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 30rem;
+}
+
+.contenido-contacto .formulario form label{ 
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1rem;
+}
+
+.contenido-contacto .formulario form input { 
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    background: #ebebeb;
+    border: 1px solid #b8b8b8;
+    width: 80%;
+    height: 2rem;
+    margin-top: .5rem;
+}
+
+.contenido-contacto .formulario textarea{ 
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    background: #ebebeb;
+    border: 1px solid #b8b8b8;
+    width: 80%;
+    margin-top: .5rem;
+}
+
+.contenido-contacto .formulario .btn-b{
+    background-color: #000;
+    color: #fff;
+}
